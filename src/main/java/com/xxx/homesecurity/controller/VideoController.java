@@ -1,11 +1,11 @@
 package com.xxx.homesecurity.controller;
 
-import com.xxx.homesecurity.services.DemoService;
 import lombok.RequiredArgsConstructor;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
+@RequestMapping(value = "/api/video")
 @RequiredArgsConstructor
-public class DemoController {
-    private final DemoService demoService;
+public class VideoController {
 }

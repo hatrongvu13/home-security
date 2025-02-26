@@ -1,0 +1,10 @@
+server:
+  servlet:
+    context-path: /home-security
+  port: 8080
+spring:
+  application:
+    name: Home-Security
+home-security:
+  path-input: classpath:/config
+  path-output: /data
