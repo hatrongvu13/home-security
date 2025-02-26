@@ -1,13 +1,10 @@
 package com.xxx.homesecurity;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-@SpringBootApplication
 public class HomeSecurityApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(HomeSecurityApplication.class, args);
+        String rtspUrl = "rtsp://admin:password@192.168.1.100:554/onvif1";
+
     }
 
 }
