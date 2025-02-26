@@ -7,7 +7,7 @@ import org.bytedeco.javacv.Frame;
 
 public class RTSPToYouTube {
     public static void main(String[] args) {
-        String rtspUrl = "rtsp://admin:password@192.168.1.100:554/onvif1";
+        String rtspUrl = "rtsp://**********:*******@*********:554/onvif1";
         String rtmpUrl = "rtmp://a.rtmp.youtube.com/live2/YOUR_STREAM_KEY";
 
         try (FFmpegFrameGrabber grabber = new FFmpegFrameGrabber(rtspUrl);

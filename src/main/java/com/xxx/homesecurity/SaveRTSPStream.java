@@ -8,7 +8,7 @@ import org.bytedeco.javacv.Frame;
 
 public class SaveRTSPStream {
     public static void main(String[] args) {
-        String rtspUrl = "rtsp://admin:password@192.168.1.100:554/onvif1"; // Thay bằng thông tin thật
+        String rtspUrl = "rtsp://********:********@*********:554/onvif1"; // Thay bằng thông tin thật
         String outputFile = "output.mp4";
 
         try (FFmpegFrameGrabber grabber = new FFmpegFrameGrabber(rtspUrl);
