@@ -1,0 +1,17 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<?import javafx.scene.layout.VBox?>-->
+<!--<?import javafx.scene.control.Button?>-->
+<!--<?import javafx.scene.layout.HBox?>-->
+<!--<?import javafx.scene.canvas.Canvas?>-->
+
+<!--<VBox xmlns="http://javafx.com/javafx" fx:controller="com.xxx.homesecurity.MainController" spacing="10">-->
+<!--    <Canvas fx:id="videoCanvas" width="640" height="480"/>-->
+<!--    <HBox spacing="10">-->
+<!--        <Button fx:id="leftButton" text="Left" onAction="#panLeft"/>-->
+<!--        <Button fx:id="rightButton" text="Right" onAction="#panRight"/>-->
+<!--        <Button fx:id="upButton" text="Up" onAction="#tiltUp"/>-->
+<!--        <Button fx:id="downButton" text="Down" onAction="#tiltDown"/>-->
+<!--        <Button fx:id="zoomInButton" text="Zoom In" onAction="#zoomIn"/>-->
+<!--        <Button fx:id="zoomOutButton" text="Zoom Out" onAction="#zoomOut"/>-->
+<!--    </HBox>-->
+<!--</VBox>-->
